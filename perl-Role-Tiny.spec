@@ -8,13 +8,13 @@
 Summary:	Role::Tiny - Roles. Like a nouvelle cuisine portion size slice of Moose.
 #Summary(pl.UTF-8):	
 Name:		perl-Role-Tiny
-Version:	1.003002
+Version:	2.000000
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/H/HA/HAARG/Role-Tiny-1.003002.tar.gz
-# Source0-md5:	2d9b46cdc8dbb59056710e2c8e35e25f
+Source0:	http://www.cpan.org/modules/by-authors/id/H/HA/HAARG/Role-Tiny-%{version}.tar.gz
+# Source0-md5:	1005f7d427590aac51b1e734b8a2febc
 URL:		http://search.cpan.org/dist/Role-Tiny/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
