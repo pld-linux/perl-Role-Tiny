@@ -8,13 +8,13 @@
 Summary:	Role::Tiny - Roles; like a nouvelle cuisine portion size slice of Moose
 Summary(pl.UTF-8):	Role::Tiny - role; podobnie jak nowy kuzyn o ułamku rozmiaru Moose
 Name:		perl-Role-Tiny
-Version:	2.000006
+Version:	2.001004
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/H/HA/HAARG/Role-Tiny-%{version}.tar.gz
-# Source0-md5:	7c277728a7e090f64b495857cadfed08
+# Source0-md5:	98446826608b1e943e65c1f6e35942fe
 URL:		http://search.cpan.org/dist/Role-Tiny/
 %if "%(rpm -q perl-devel --qf '%{VERSION}')" < "5.10"
 BuildRequires:	perl-MRO-Compat
