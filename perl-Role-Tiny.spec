@@ -4,7 +4,6 @@
 #
 %define		pdir	Role
 %define		pnam	Tiny
-%include	/usr/lib/rpm/macros.perl
 Summary:	Role::Tiny - Roles; like a nouvelle cuisine portion size slice of Moose
 Summary(pl.UTF-8):	Role::Tiny - role; podobnie jak nowy kuzyn o ułamku rozmiaru Moose
 Name:		perl-Role-Tiny
