@@ -14,12 +14,13 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/H/HA/HAARG/Role-Tiny-%{version}.tar.gz
 # Source0-md5:	98446826608b1e943e65c1f6e35942fe
-URL:		http://search.cpan.org/dist/Role-Tiny/
+URL:		https://metacpan.org/release/Role-Tiny
 %if "%(rpm -q perl-devel --qf '%{VERSION}')" < "5.10"
 BuildRequires:	perl-MRO-Compat
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl(Exporter) >= 5.57
 BuildRequires:	perl-Test-Fatal >= 0.003
